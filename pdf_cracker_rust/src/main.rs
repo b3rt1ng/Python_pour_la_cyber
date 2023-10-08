@@ -58,7 +58,7 @@ fn main() {
     // Ouvrir le fichier en écriture
     let pdf_bytes = std::fs::read(&args[2]).expect("Unable to read PDF");
 
-    println!("début du bruteforce.");
+    println!("starting bruteforce.");
     let start_time = Instant::now();
 
     for potential_password in lines {;
