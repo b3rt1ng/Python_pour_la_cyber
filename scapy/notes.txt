@@ -1,0 +1,21 @@
+-> création de trame ethernet avec scapy
+        x = Ether()
+        x.dst = "2b:36:7b:d0:b2:75" # adresse mac au pif
+        x.show()
+        sendp(x)
+        
+schéma typique de création et d'envoit d'un packet
+
+typiquement les trames icmp sont à emballer
+
+-> capture de packets
+	sniff()
+	ctrl+C
+	sniff() à stoqué les paquets transitants pentant le sniffing
+	listen = sniff(count=1)
+	listen.show()
+	on peux analyser le paquet récupéré
+	listen[0].show()
+	on cherche l'ip source du packet mais on a deux champs src dans ethernet et ip.
+	pour avoir l'ip
+	listen.[0].[IP]

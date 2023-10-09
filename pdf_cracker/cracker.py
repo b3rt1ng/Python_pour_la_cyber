@@ -8,7 +8,7 @@ parser.add_argument("-f", "--file", dest="pdfile", help="PDF file to crack", def
 parser.add_argument("-w", "--wordlist", dest="psswdlist", help="Password list", default="passwd.txt")
 
 def cracker(pdfile, psswdlist) -> str:
-    for password in [i.strip() for i in  open(psswdlist)]:
+    for password in [i.strip() for i in open(psswdlist)]:
         try:
             with pikepdf.open(pdfile, password=password) as pdf:
                 return password
