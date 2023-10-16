@@ -1,0 +1,5 @@
+apt install vsfptd -> install du service very secure ftp
+
+service vsftpd status / start
+
+on cherche à voir le service sur le port 21 -> netstat -antp | grep 21
