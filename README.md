@@ -7,4 +7,5 @@
 - **projets**:
   - [🔗PDF Cracker](https://github.com/b3rt1ng/Python_pour_la_cyber/blob/main/pdf_cracker/cracker.py) (python)
   - [🔗PDF Cracker](https://github.com/b3rt1ng/Python_pour_la_cyber/blob/main/pdf_cracker_rust/src/main.rs) (rust)
-  - [🔗ZIP Cracker](https://github.com/b3rt1ng/Python_pour_la_cyber/blob/main/zipfile_cracker/zipcrack.py) (python)
+  - [🔗ZIP Cracker](https://github.com/b3rt1ng/Python_pour_la_cyber/blob/main/zipfile_cracker/zipcrack.py)
+  - [🔗Socket server + reverse shell](https://github.com/b3rt1ng/Python_pour_la_cyber/tree/main/socket)
